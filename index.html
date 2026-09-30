@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  
+  <script src="./main.js" defer></script>
+</head>
+<body>
+
+  <main>
+    <article>
+      <div class="productImg">
+        <img src="./images/drawers.jpg" alt="green drawers">
+      </div>
+      <div class="description">
+        <h1>
+          Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home
+        </h1>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete.
+        </p>
+        <footer class="author">
+          <img src="./images/avatar-michelle.jpg" alt="avatar of the author">
+          <p>
+            <span class="name">Michelle Appleton</span>
+            <span class="date">28 Jun 2020</span>
+          </p>
+          <button class="shareBtn" aria-label="Share" aria-expanded="false" aria-controls="share-tooltip"><img src="./images/icon-share.svg" alt="icon-share"></button>
+          <div id="share-tooltip" class="">
+            <span>Share</span>
+            <a href="#" aria-label="Share on Facebook"><img src="./images/icon-facebook.svg" alt="icon-facebook"></a>
+            <a href="#" aria-label="Share on Twitter"><img src="./images/icon-twitter.svg" alt="icon-twitter"></a>
+            <a href="#" aria-label="Share on Pinterest"><img src="./images/icon-pinterest.svg" alt="icon-pinterest"></a>
+            
+          </div>
+        </footer>
+      </div>
+    </article>
+  </main>
+  
+  
+</body>
+</html>
