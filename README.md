@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- **Solution URL:** [GitHub Repository](https://github.com/your-username/article-preview-component)
-- **Live Site URL:** [GitHub Pages](https://your-username.github.io/article-preview-component/)
+- **Solution URL:** [GitHub Repository](https://github.com/SinTim8/article-preview-component-master)
+- **Live Site URL:** [GitHub Pages](https://sintim8.github.io/article-preview-component-master/)
 
 ---
 
